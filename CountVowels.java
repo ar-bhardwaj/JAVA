@@ -14,6 +14,6 @@ public class CountVowels{
 		 
 	}
 }
-
+ 
 /*if(ch='') continue;
 	else if('aeiou'.contains(ch=='')) count++; */

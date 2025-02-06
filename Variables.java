@@ -5,3 +5,4 @@ public class Variables{
 	System.out.print(a);
 	}
 }
+ 

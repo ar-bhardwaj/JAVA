@@ -19,4 +19,4 @@ public class PanagramHashCheck{
 		}
 		return letters.size() ==26;
 	}
-}
+} 

@@ -11,8 +11,8 @@ public class Occurance{
 		}
 		for(int i=0;i<n;i++){
 			String word=arr[i];
-			if(c==word.charAt(0)) count++;
+			if(c==word.charAt(0)&&!word.isEmpty() ) count++;
 		}
 		System.out.print(count);
 	}
-}
+} 

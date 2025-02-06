@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Source code is decompiled from a .class file using FernFlower decompiler.
 class BankingSystem {
    private int accNumber;
@@ -39,3 +40,46 @@ class BankingSystem {
       System.out.println("Account Balance: " + this.accountBalance);
    }
 }
+=======
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class BankingSystem {
+   private int accNumber;
+   private String accHolderName;
+   private int accountBalance;
+
+   public BankingSystem(int var1, String var2, int var3) {
+      this.accNumber = var1;
+      this.accHolderName = var2;
+      this.accountBalance = var3;
+   }
+
+   void addBalance(int var1) {
+      if (var1 > 0) {
+         this.accountBalance += var1;
+      } else {
+         System.out.println("paise ni h to yaha ku aya");
+      }
+
+   }
+
+   int withdraw(int var1) {
+      if (var1 > this.accountBalance) {
+         System.out.println("Bhai paise to dal de pahle");
+      } else {
+         this.accountBalance -= var1;
+      }
+
+      return this.accountBalance;
+   }
+
+   boolean checkBalance() {
+      return this.accountBalance > 0;
+   }
+
+   public void display() {
+      System.out.println("Account Number: " + this.accNumber);
+      System.out.println("Account Holder Name: " + this.accHolderName);
+      System.out.println("Account Balance: " + this.accountBalance);
+   }
+}
+>>>>>>> 424b03e (31 jan)

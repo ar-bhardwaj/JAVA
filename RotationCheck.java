@@ -13,4 +13,4 @@ public class RotationCheck{
 		return concat.contains(str2);
 		
 	}
-}
+}  

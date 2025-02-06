@@ -22,3 +22,4 @@ public class UnionofArr{
         System.out.println(union);
 	}	
 }
+ 

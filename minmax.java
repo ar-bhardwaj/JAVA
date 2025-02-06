@@ -21,4 +21,4 @@ public class minmax {
 		}
 		System.out.println("minimum: " + min + " " + "maximum: " + max);
 	}
-}
+} 

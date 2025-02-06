@@ -6,7 +6,7 @@ public class CountAll{
 		int upercase=0;
 		int digit=0;
 		int specialchar=0;
-		for(int i =0;i<sentence.length();i++){
+		for(int i =0;i<sentence.length();i++){ 
 			char ch= sentence.charAt(i);
 			if(Character.isLowerCase(ch)) lowercase++;
 			else if(Character.isUpperCase(ch)) upercase++;
