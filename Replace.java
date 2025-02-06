@@ -18,6 +18,6 @@ class Replace{
         }
         for(int i=0;i<wordArray.length;i++){
             System.out.print(wordArray[i]+" ");
-        }
-    }
+        }
+    }
 }
